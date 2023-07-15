@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "mnist-handwritten-digits-classifier"
+version = "0.1.0"
+description = ""
+authors = ["Gianluca Manca <gianluca.manca89@gmail.com>"]
+license = "MIT-License"
+readme = "README.md"
+packages = [{include = "mnist_handwritten_digits_classifier"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+torch = "^2.0.1"
+numpy = "^1.25.1"
+pandas = "^2.0.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
